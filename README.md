@@ -4,4 +4,4 @@ This project aims to extend my knowledge of React and learn full stack by integr
 
 The full stack technologies and patterns in this project will help me develop further projects that are more dynamic than before.
 
-Technologies: React, Node.js, Express.js
+Technologies: React, Node.js, Express.js, PostgreSQL
