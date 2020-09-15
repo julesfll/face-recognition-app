@@ -66,7 +66,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
-    fetch('http://localhost:5000/imageurl', {
+    fetch('https://stark-mountain-46795.herokuapp.com/imageurl', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -78,7 +78,7 @@ class App extends Component {
       .then((response) => response.json())
       .then((response) => {
         if (response) {
-          fetch('http://localhost:5000/image', {
+          fetch('https://stark-mountain-46795.herokuapp.com/image', {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json',
